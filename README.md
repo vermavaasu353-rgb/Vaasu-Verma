@@ -46,7 +46,20 @@ The main objectives of this repository are:
 - Understood duty cycle concept  
 
 ---
+### Experiment 5: Super Loop Based System
+Implement infinite loop architecture
+Perform multiple tasks (LED + Button + Sensor)
+Use software counters for scheduling
+Learn cooperative multitasking 
 
+---
+### Experiment 6: FreeRTOS Task Implementation
+Integrate FreeRTOS
+Create and manage tasks
+Use scheduler for multitasking
+Non-blocking delays using osDelay()
+
+---
 ## Tools and Technologies Used
 - STM32 Nucleo-F446RE  
 - STM32CubeIDE  
@@ -75,6 +88,7 @@ RTOS-Lab/
 ├── Experiment-3-Ultrasonic-Sensor/
 ├── Experiment-4-PWM/
 ├── Experiment-5-Super-Loop/
+├── Experiment 6: FreeRTOS Task Implementation/
 └── README.md
 ```
 
