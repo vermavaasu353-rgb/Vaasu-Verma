@@ -30,15 +30,24 @@ The main objectives of this repository are:
 - Controlled onboard LED  
 - Learned digital output operation  
 
+
+---
+
 ### Experiment 2: Push Button Controlled LED
 - Interfaced push button as input  
 - Implemented LED toggling  
 - Understood debouncing concept  
 
+
+---
+
 ### Experiment 3: Ultrasonic Sensor Interfacing
 - Measured distance using HC-SR04 sensor  
 - Used timer for time-of-flight calculation  
 - Implemented LED indication  
+
+
+---
 
 ### Experiment 4: PWM Signal Generation
 - Generated PWM signal using timer  
@@ -59,6 +68,8 @@ The main objectives of this repository are:
 - Create and manage tasks  
 - Use scheduler for multitasking  
 - Non-blocking delays using `osDelay()`
+
+---
 
 ### Experiment 7: FreeRTOS Task Priority
 - Create multiple tasks with different priorities  
