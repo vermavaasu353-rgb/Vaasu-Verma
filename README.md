@@ -58,7 +58,31 @@ The main objectives of this repository are:
 - Integrate FreeRTOS  
 - Create and manage tasks  
 - Use scheduler for multitasking  
-- Non-blocking delays using `osDelay()`  
+- Non-blocking delays using `osDelay()`
+
+### Experiment 7: FreeRTOS Task Priority
+- Create multiple tasks with different priorities  
+- Analyze effect of priority on task execution  
+- Observe LED behavior under different priorities  
+- Understand preemptive scheduling in RTOS  
+
+---
+
+### Experiment 8: Semaphore with Interrupt (EXTI)
+- Configure external interrupt using push button  
+- Implement binary semaphore for synchronization  
+- Trigger task execution using ISR  
+- Understand event-driven task execution  
+
+---
+
+### Experiment 9: Queue Communication (Producer-Consumer)
+- Implement inter-task communication using queue  
+- Create producer and consumer tasks  
+- Transfer data safely between tasks  
+- Understand FIFO and thread-safe communication
+
+---
 ## Tools and Technologies Used
 - STM32 Nucleo-F446RE  
 - STM32CubeIDE  
@@ -82,13 +106,17 @@ The main objectives of this repository are:
 ```
 RTOS-Lab/
 │
-├── Experiment-1-GPIO-LED/
-├── Experiment-2-Push-Button/
-├── Experiment-3-Ultrasonic-Sensor/
-├── Experiment-4-PWM/
-├── Experiment-5-Super-Loop/
-├── Experiment 6: FreeRTOS Task Implementation/
-└── README.md
+├── 📁 Experiment-1-GPIO-LED/
+├── 📁 Experiment-2-Push-Button/
+├── 📁 Experiment-3-Ultrasonic-Sensor/
+├── 📁 Experiment-4-PWM/
+├── 📁 Experiment-5-Super-Loop/
+├── 📁 Experiment-6-FreeRTOS/
+├── 📁 Experiment-7-Task-Priority/
+├── 📁 Experiment-8-Semaphore-Interrupt/
+├── 📁 Experiment-9-Queue-Communication/
+│
+└── 📄 README.md
 ```
 
 
